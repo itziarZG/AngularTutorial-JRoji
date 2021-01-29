@@ -1,0 +1,19 @@
+.button {
+  border-radius: 50px;
+  padding: 5px;
+  background: rgb(25, 183, 224);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 183, 224, 1) 0%,
+    rgba(97, 97, 198, 1) 56%,
+    rgba(12, 12, 217, 1) 100%
+  );
+  color: white;
+  min-width: 50px;
+  min-height: 20px;
+}
+.message {
+  &_input {
+    width: 70%;
+  }
+}
