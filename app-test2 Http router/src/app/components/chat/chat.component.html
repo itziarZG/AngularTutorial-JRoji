@@ -1,0 +1,9 @@
+<h2>Chat!</h2>
+<h4>{{id}}</h4>
+<div class="message-bar">
+  <input class='message_input' [(ngModel)]="value">
+  <button class='button' (click)="buttonClicked()">{{ buttonLabel }}</button>
+</div>
+<ul class=' message_list' *ngFor="let message of messages">
+  <li class='message_item'>{{ message }}</li>
+</ul>

@@ -1,0 +1,13 @@
+<h1>USERS</h1>
+<div class="cards">
+  <div class="card" (click)="handleClick(user.login.uuid)" *ngFor="let user of users">
+    <img class="card-img" src="{{user.picture.thumbnail}}" alt="">
+
+    <h3>Name: {{user.name | concatname}}</h3>
+    <h4>Gender: {{user.gender }}</h4>
+    <p>E-mail: {{user.email}}</p>
+
+
+  </div>
+
+</div>
